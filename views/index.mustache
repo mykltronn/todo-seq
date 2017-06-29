@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Express Todo</title>
+  </head>
+  <body>
+    <h1>Do These</h1>
+
+      <form class="todo-form" action="/" method="post">
+        <label for="item">Add item</label>
+        <input type="text" name="item">
+        <button type="submit">Submit</button>
+      </form>
+      <ul>
+      {{#todos}}
+        {{#dataValues}}
+          {{#iscompleted}}
+            <li><input type="checkbox" name="todo" checked="checked">{{item}}</li>
+          {{/iscompleted}}
+          {{^iscompleted}}
+            <li><input type="checkbox" name="todo">{{item}}</li>
+          {{/iscompleted}}
+        {{/dataValues}}
+      {{/todos}}
+      </ul>
+
+  </body>
+</html>

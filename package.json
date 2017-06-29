@@ -1,0 +1,27 @@
+{
+  "name": "todo-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.0",
+    "mustache-express": "^1.2.4",
+    "pg": "^6.4.0",
+    "sequelize": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykltronn/todo-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mykltronn/todo-express/issues"
+  },
+  "homepage": "https://github.com/mykltronn/todo-express#readme",
+  "description": ""
+}
